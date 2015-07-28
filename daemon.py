@@ -11,7 +11,6 @@ import os,sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-auth = '117649509:AAF2s4o2Xzy5810GlcFUD6gsZubqBcd-_S0'
 delay = 0.4
 
 class StatusNotOk(Exception):
