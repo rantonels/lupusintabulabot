@@ -13,6 +13,10 @@ sys.setdefaultencoding("utf-8")
 
 delay = 0.4
 
+authf = open('/home/riccardo/.ltauth','r')
+auth = authf.read().strip()
+authf.close()
+
 class StatusNotOk(Exception):
     pass
 
